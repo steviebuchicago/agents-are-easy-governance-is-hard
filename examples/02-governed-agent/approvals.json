@@ -1,0 +1,34 @@
+{
+  "_comment": [
+    "The human gate. This file stands in for whatever your organisation already",
+    "uses -- a change record, a ticket, a signed entry in a control system. What",
+    "matters is not the format. What matters is that the agent reads it, that a",
+    "person other than the one running the agent created the entry, and that the",
+    "approval is bound to a specific prompt version and expires.",
+    "",
+    "Editing SYSTEM in agent.py without bumping PROMPT_VERSION and adding a new",
+    "approval here means the next --live run refuses. That is the point."
+  ],
+  "approvals": [
+    {
+      "token": "CHG-2026-0412",
+      "agent": "invoice-extract",
+      "prompt_version": "invoice-extract/2026-03-30",
+      "approved_by": "Accounts Payable Change Board",
+      "approved_on": "2026-03-30",
+      "expires_on": "2027-03-30",
+      "scope": "sample_docs -> out/invoices.csv",
+      "notes": "Shadow run of 2026-03-27 reviewed against manual keying. One low-confidence scan routed to review as expected."
+    },
+    {
+      "token": "CHG-2026-0288",
+      "agent": "invoice-extract",
+      "prompt_version": "invoice-extract/2026-02-14",
+      "approved_by": "Accounts Payable Change Board",
+      "approved_on": "2026-02-14",
+      "expires_on": "2026-03-29",
+      "scope": "sample_docs -> out/invoices.csv",
+      "notes": "Superseded. Kept here so an expired, stale-prompt approval is something you can actually try: --approval CHG-2026-0288 is refused twice over."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Python 3.11+
+# Same dependency as 01-hello-agent. The governance layer is standard library
+# only -- none of the five gates needs anything you do not already have.
+anthropic>=0.40
