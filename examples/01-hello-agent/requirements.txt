@@ -1,0 +1,2 @@
+# Python 3.11+
+anthropic>=0.40
