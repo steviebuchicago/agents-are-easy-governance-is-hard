@@ -1,6 +1,6 @@
 ---
-name: meeting-notes-to-actions
-description: Turn raw meeting notes or a transcript into a table of actions with named owners and due dates, flagging every action that has no clear owner. Use when asked to pull the actions out of these notes, extract action items, write up the meeting, turn a transcript into a to-do list, work out who owns what after a meeting, or find the follow-ups. Works from scrappy handwritten-style notes, a bulleted agenda, or a full transcript.
+## name: meeting-notes-to-actions
+# description: Turn raw meeting notes or a transcript into a table of actions with named owners and due dates, flagging every action that has no clear owner. Use when asked to pull the actions out of these notes, extract action items, write up the meeting, turn a transcript into a to-do list, work out who owns what after a meeting, or find the follow-ups. Works from scrappy handwritten-style notes, a bulleted agenda, or a full transcript.
 ---
 
 # Meeting Notes to Actions
