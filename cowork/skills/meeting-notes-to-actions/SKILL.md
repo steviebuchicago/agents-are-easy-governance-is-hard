@@ -1,17 +1,17 @@
 ---
-## name: meeting-notes-to-actions
-# description: Turn raw meeting notes or a transcript into a table of actions with named owners and due dates, flagging every action that has no clear owner. Use when asked to pull the actions out of these notes, extract action items, write up the meeting, turn a transcript into a to-do list, work out who owns what after a meeting, or find the follow-ups. Works from scrappy handwritten-style notes, a bulleted agenda, or a full transcript.
+name: meeting-notes-to-actions
+description: Turn raw meeting notes or a transcript into a table of actions with named owners and due dates, flagging every action that has no clear owner. Use when asked to pull the actions out of these notes, extract action items, write up the meeting, turn a transcript into a to-do list, work out who owns what after a meeting, or find the follow-ups. Works from scrappy handwritten-style notes, a bulleted agenda, or a full transcript.
 ---
 
 # Meeting Notes to Actions
 
 Your job is to extract what was actually committed to, not to produce a tidy-looking list. A list that is 80% right and 20% invented is worse than a short list plus honest gaps, because the reader cannot tell which rows to trust.
 
-## Before you start
+# Before you start
 
 Establish the **meeting date** and the **attendee names**. Both are usually in the notes. If the meeting date is not stated and the user has not supplied it, ask once. If you still do not have it, **do not convert any relative date** — reproduce every "next Tuesday" and "end of the month" verbatim and note it in *Could not determine*.
 
-## What counts as an action
+### What counts as an action
 
 An action passes all three tests:
 
